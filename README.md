@@ -1,19 +1,47 @@
 5 Frameworks in 55 Minutes Notes
 =======================
 
+
+
 **What we're doing**
 --------------------
 1. Introductions 
 2. What is a framework, whose using them, how do they work?
 3. 5 Frameworks
 4. Other interesting frameworks
-
+5. Other resources
 
 Introductions
 -----------
-* Who am I?
+* Who is this presenter?
 * Why? Why do this? How might this be important?
 * What tools do we need?
+
+### Who is this presenter
+
+* CS Teacher at Century HS since 2005-06
+  - [@centuryhstech](https://www.instagram.com/centuryhstech/?hl=en)
+  - [chsweb.org](https://chsweb.org)
+  - [Hundredvisionsguy YouTube Channel](https://www.youtube.com/channel/UCaK-mU6spvlU_UssdgkN-bg?view_as=subscriber) 
+* WordPress Front-end Developer
+  - Latest project was [OregonCSTA.org website](http://oregoncsta.org/)
+* Web and Web Dev afficionado
+* Student of Web Development
+
+
+## Why?
+* This is where industry is at
+* Frameworks speed up development time
+* Frameworks solve many common problems in CSS
+* Frameworks have many applications (layouts, typography, animations, functionality)
+
+### Why in the classroom?
+* Students learn industry standard techniques
+* It helps move students more quickly towards realizing their visions
+* It adds a much needed wow factor in the classroom
+  - as opposed to working hard for little reward/payoff
+* It provides a learning opportunity to see how professionals have solved technically difficult challenges (especially with layouts)
+* It makes the jump from Web Design to Web Development and helps bring in CS concepts more quickly
 
 Tools you'll want
 ---------
@@ -35,3 +63,12 @@ Frameworks
 4. Animate.css
 5. VueJS (add some JavaScript)
 6. Other Frameworks worth looking at 
+
+Getting Started
+--------------
+This is the general flow of things:
+1. Begin by forking my template
+2. Convert that pen into a CodePen template
+3. For each Framework, create a new pen from your template
+
+Boostrap
