@@ -20,7 +20,7 @@ Tools you'll want
 * CodePen 
   - this is a free online based tool that keeps getting better
   - this opens up the possiblity for chromebook 
-  - We'll begin our presentation with my blank slate Codepen called *CSS Framework Template[https://codepen.io/hundredvisionsguy/pen/QWwxVop]*
+  - We'll begin our presentation with my blank slate Codepen called **[CSS Framework Template](https://codepen.io/hundredvisionsguy/pen/QWwxVop)**
 * Optional tools worth looking at:
   - VS Code (essential text editor)
   - NodeJS (for JavaScript frameworks like React, Vue, and Angular)
