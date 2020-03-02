@@ -51,6 +51,7 @@ Tools you'll want
   - We'll begin our presentation with my blank slate Codepen called **[CSS Framework Template](https://codepen.io/hundredvisionsguy/pen/QWwxVop)**
 * Optional tools worth looking at:
   - VS Code (essential text editor)
+    You can [download VS Code](https://code.visualstudio.com/download)
   - NodeJS (for JavaScript frameworks like React, Vue, and Angular)
     + Note: you can install this on a chromebook if you have terminal, but I am not sure how possible that is or how excited your IT folks will be 
     + https://medium.com/@jacoboakley/web-development-with-a-chromebook-installing-nodejs-4e358b82a31b
