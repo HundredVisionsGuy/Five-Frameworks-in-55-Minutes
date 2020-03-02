@@ -1,13 +1,15 @@
-/* 5 Frameworks in 55 Minutes Notes */
+5 Frameworks in 55 Minutes Notes
+=======================
 
-// Scope & Sequence {
-  1. Introductions 
-  2. What is a framework, whose using them, how do they work?
-  3. 5 Frameworks
-  4. Other interesting frameworks
-}
+**What we're doing**
+--------------------
+1. Introductions 
+2. What is a framework, whose using them, how do they work?
+3. 5 Frameworks
+4. Other interesting frameworks
 
-// Introductions {
+
+Introductions {
   * Who am I?
   * Why? Why do this? How might this be important?
   * What tools do we need?
