@@ -1,10 +1,10 @@
 5 Frameworks in 55 Minutes Notes
 =======================
 
-## [What we're doing](#nav)
+## The Plan for Today
 
 1. [Introductions](#introductions)
-2. [What is a framework and how do they work?](#what's-a-framework)
+2. [What is a framework and how do they work?](#what-is-a-framework)
 3. [Getting Started](#getting-started)
 4. [5 Frameworks](#frameworks)
 5. [Other interesting frameworks](#other-frameworks)
@@ -41,10 +41,10 @@
 * It provides a learning opportunity to see how professionals have solved technically difficult challenges (especially with layouts)
 * It makes the jump from Web Design to Web Development and helps bring in CS concepts more quickly
 
-[back to the top](#what-we're-doing)
+[back to the top](#the-plan-for-today)
 
 ---------
-## What's a framework?
+## What is a framework?
 > *[CSS frameworks provide a basic structure for designing consistent solutions to tackle common recurring issues across front end web development.](https://blog.zipboard.co/a-beginners-guide-to-css-front-end-frameworks-8045a499456b)*
 
 * There are front-end frameworks and backend frameworks
@@ -72,7 +72,7 @@
 
 Unfortunately, we won't have the time to take a deep dive in the JS Frameworks.
 
-[back to the top](#what-we're-doing)
+[back to the top](#the-plan-for-today)
 
 ---------
 ## Tools you'll want
@@ -87,7 +87,7 @@ Unfortunately, we won't have the time to take a deep dive in the JS Frameworks.
     + Note: you can install this on a chromebook if you have terminal, but I am not sure how possible that is or how excited your IT folks will be 
     + https://medium.com/@jacoboakley/web-development-with-a-chromebook-installing-nodejs-4e358b82a31b
 
-[back to the top](#what-we're-doing)
+[back to the top](#the-plan-for-today)
 
 ---------
 ## Getting Started
@@ -103,7 +103,7 @@ After this workshop, you should have the confidence to further explore
 
 NOTE: Code samples are included in the samples directory
 
-[back to the top](#what-we're-doing)
+[back to the top](#the-plan-for-today)
 
 ---------
 ## Frameworks
@@ -121,13 +121,14 @@ NOTE: Code samples are included in the samples directory
 1. Click Pen > From Template
 2. Select your CSS Framework Template
 3. Name it Bootstrap Sample (or something)
+
 ### Adding Bootstrap
 
-[back to the top](#what-we're-doing)
+[back to the top](#the-plan-for-today)
 
 ---------
 ## Other Frameworks
 
-[back to the top](#what-we're-doing)
+[back to the top](#the-plan-for-today)
 
 ---------
