@@ -1,5 +1,4 @@
-5 Frameworks in 55 Minutes Notes
-=======================
+# Five Frameworks in 55 Minutes 
 
 ## The Plan for Today
 
@@ -41,7 +40,7 @@
 * It provides a learning opportunity to see how professionals have solved technically difficult challenges (especially with layouts)
 * It makes the jump from Web Design to Web Development and helps bring in CS concepts more quickly
 
-[back to the top](#the-plan-for-today)
+[back to the top](#five-frameworks-in-55-minutes)
 
 ---------
 ## What is a framework?
@@ -72,7 +71,7 @@
 
 Unfortunately, we won't have the time to take a deep dive in the JS Frameworks.
 
-[back to the top](#the-plan-for-today)
+[back to the top](#five-frameworks-in-55-minutes)
 
 ---------
 ## Tools you'll want
@@ -87,7 +86,7 @@ Unfortunately, we won't have the time to take a deep dive in the JS Frameworks.
     + Note: you can install this on a chromebook if you have terminal, but I am not sure how possible that is or how excited your IT folks will be 
     + https://medium.com/@jacoboakley/web-development-with-a-chromebook-installing-nodejs-4e358b82a31b
 
-[back to the top](#the-plan-for-today)
+[back to the top](#five-frameworks-in-55-minutes)
 
 ---------
 ## Getting Started
@@ -103,7 +102,7 @@ After this workshop, you should have the confidence to further explore
 
 NOTE: Code samples are included in the samples directory
 
-[back to the top](#the-plan-for-today)
+[back to the top](#five-frameworks-in-55-minutes)
 
 ---------
 ## Frameworks
@@ -124,11 +123,10 @@ NOTE: Code samples are included in the samples directory
 
 ### Adding Bootstrap
 
-[back to the top](#the-plan-for-today)
+[back to the top](#five-frameworks-in-55-minutes)
 
 ---------
 ## Other Frameworks
 
-[back to the top](#the-plan-for-today)
-
+[back to the top](#five-frameworks-in-55-minutes
 ---------
