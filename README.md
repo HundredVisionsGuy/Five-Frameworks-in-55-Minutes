@@ -108,12 +108,12 @@ NOTE: Code samples are included in the samples directory
 ---------
 ## Frameworks
 
-1. Bootstrap
-2. Foundation
-3. Materialize
-4. Animate.css
-5. VueJS (add some JavaScript)
-6. Other Frameworks worth looking at 
+1. [Bootstrap](#bootstrap)
+2. [Foundation](#foundation)
+3. [Materialize](#materialize)
+4. [Animate.css](#animate)
+5. [VueJS (add some JavaScript)](#vuejs)
+6. [Other Frameworks worth looking at](#other-frameworks)
 
 [back to the top](#five-frameworks-in-55-minutes)
 
