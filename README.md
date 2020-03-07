@@ -166,6 +166,18 @@ NOTES:
 
 
 ## Materialize
+  1. Container class
+  2. On Navbar, there are some differences:
+      * Add `navbar` class to nav
+      * Wrap the `ul` in a div with a class of `nav-wrapper`
+      * Move the Materialize link into an anchor tag with a class of `brand-logo left`
+      * Add a `menu right` class
+  3. Make your grids
+  4. On the buttons, use `waves-effect` classes
+  5. Add stripes and hover effect
+  6. Forms: 
+    * add `autocomplete` on input
+    * Let's add some icons to the TextArea label
 
 ## Animate.css
 
