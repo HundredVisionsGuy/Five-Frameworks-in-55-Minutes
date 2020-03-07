@@ -1,5 +1,7 @@
 # Five Frameworks in 55 Minutes 
 
+## [bit.ly/2TP53oL](bit.ly/2TP53oL)
+
 ## The Plan for Today
 
 1. [Introductions](#introductions)

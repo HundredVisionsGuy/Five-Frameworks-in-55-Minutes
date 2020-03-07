@@ -23,44 +23,60 @@
 	</nav>
 	<h2 id="hello">Hello, Vue!</h2>
 	<div id="app">
-		
+		<p><strong>{{ message }}</strong></p>
 	</div>
 	<p><a href="#">up</a></p>
 
 	<h2 id="bind">Bind Element Attributes</h2>
 	<div id="app2">
-		
+		<span v-bind:title="message">
+			Hover your mouse over me for a few seconds
+			to see my dynamically bound title!
+		</span>
 	</div>
 
 	<p><a href="#">up</a></p>
 
 	<h2 id="for-loops">For Loops</h2>
 	<div id="app3">
-		
+		<ul>
+			<li v-for="todo in todos">
+				{{todo.text}}
+			</li>
+		</ul>
 	</div>
 	<p><a href="#">up</a></p>
 
 	<h2 id="user-input" class="">User Input</h2>
 	<div id="app4">
-		
+		<p>{{ message }}</p>
+		<button v-on:click="reverseMessage">Reverse Message</button>
 	</div>
 	<p><a href="#body">top</a></p>
 
 	<h2 id="binding-two-way" class="">Two Way Binding</h2>
 	<div id="app-5">
-		
+		<p>{{ message }}</p>
+		<input v-model="message">
 	</div>
 	<p><a href="#body">top</a></p>
 
 	<h2 id="components" class="">Vue Components</h2>
 	<div id="app-6">
-		
+		<ol>
+			<!--
+      Now we provide each todo-item with the todo object
+      it's representing, so that its content can be dynamic.
+      We also need to provide each component with a "key",
+      which will be explained later.
+    -->
+			<todo-item v-for="item in groceryList" v-bind:todo="item" v-bind:key="item.id"></todo-item>
+		</ol>
 	</div>
 </div>
-<!-- partial -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/quasar-framework/0.17.20/quasar.mat.umd.min.js'></script>
-<script src="script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/quasar-framework/0.17.20/quasar.mat.umd.min.js'></script>
+	<script  src="./script.js"></script>
 
 </body>
 </html>
