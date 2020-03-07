@@ -1,53 +1,57 @@
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - CSS Framework Template</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+  <title>CodePen - Materialize</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css'><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
 <div id="body" class="container">
-	<h1 class="">CSS Framework Template</h1>
+	<h1 class="">Materialize Framework Test</h1>
 	<p>5 Frameworks in 55 Minutes</p>
-	<nav class="navbar">
-		<ul class="">
-			<li class=""><a href="#" class="">Link to Framework</a></li>
-			<li class=""><a href="#grids" class="">Grids</a></li>
-			<li class=""><a href="#buttons" class="">Buttons</a></li>
-			<li class=""><a href="#tables" class="">Tables</a></li>
-			<li class=""><a href="#forms" class="">Forms</a></li>
-			<li class=""><a href="#typography" class="">Typography</a></li>
-			<li class=""><a href="#lists" class="">Lists</a></li>
-		</ul>
-	</nav>
 
+	<nav class="navbar animated rotateInDownLeft z-depth-4">
+		<div class="nav-wrapper">
+			<a href="https://materializecss.com/getting-started.html" class="brand-logo left">Materialize</a>
+			<ul class="menu right">
+				<li class=""><a href="#grids" class="">Grids</a></li>
+				<li class=""><a href="#buttons" class="">Buttons</a></li>
+				<li class=""><a href="#tables" class="">Tables</a></li>
+				<li class=""><a href="#forms" class="">Forms</a></li>
+				<li class=""><a href="#typography" class="">Typography</a></li>
+				<li class=""><a href="#lists" class="">Lists</a></li>
+			</ul>
+		</div>
+	</nav>
 	<h2 id="grids">Grids</h2>
-	<section class="grids-container">
-		<div class="">
-			<div class="">
+	<section class="">
+		<div class="row">
+			<div class="col s6">
 				<p>Responsive Half-width</p>
 			</div>
-			<div class="">
+			<div class="col s6">
 				<p>Responsive Half-width</p>
 			</div>
 		</div>
-		<div class="">
-			<div class="">
+		<div class="row">
+			<div class="col s5">
 				<p>Left Column (40%)</p>
 			</div>
-			<div class="">
+			<div class="col s7">
 				<p>Right Column (60%)</p>
 			</div>
 		</div>
-		<div class="">
-			<div class="">
+		<div class="row">
+			<div class="col s4">
 				<p>Three evenly spaced divs</p>
 			</div>
-			<div class="">
+			<div class="col s4">
 				<p>Three evenly spaced divs</p>
 			</div>
-			<div class="">
+			<div class="col s4">
 				<p>Three evenly spaced divs</p>
 			</div>
 		</div>
@@ -55,13 +59,14 @@
 	<p><a href="#body">top</a></p>
 
 	<h2 id="buttons">Buttons</h2>
-	<p><button class="">Press this</button></p>
-	<p><a class="" href="#">Press this</a></p>
-	<p><button class="">Don't press this</button></p>
+	<p>Add the link to the header of the page for icons</p>
+	<p><button class="waves-effect waves-light btn pulse">Press this</button></p>
+	<p><a class="waves-effect waves-light btn" href="#"><i class="medium material-icons">grade</i>Press this</a></p>
+	<p><button class="btn disabled">Don't press this</button></p>
 	<p><a href="#body">top</a></p>
 
 	<h2 id="tables">Tables</h2>
-	<table class="" border="1">
+	<table class="striped highlight" border="1">
 		<tr>
 			<th>Header 1</th>
 			<th>Header 2</th>
@@ -144,7 +149,7 @@
 			</div>
 		</div>
 		<div class="">
-			<p>
+			<div class="">
 				<label>Select Box
 					<select multiple>
 						<option value="husker">Husker</option>
@@ -153,7 +158,7 @@
 						<option value="apollo">Apollo</option>
 					</select>
 				</label>
-			</p>
+			</div>
 		</div>
 		<div class="">
 			<div class="">
@@ -187,7 +192,7 @@
 							<input id="checkbox2" type="checkbox">
 							<span>Checkbox 2</span>
 						</label>
-					</p>
+						<p />
 			</div>
 		</div>
 		<div class="">
@@ -197,12 +202,11 @@
 						aria-labeledby="textLabel" aria-describedby="textAreaHelp"></textarea>
 					<p class="help-text" id="textAreaHelp">This is some help text that will be associated with the form.</p>
 				</label>
+
 			</div>
 		</div>
 	</form>
-
 	<p><a href="#body">top</a></p>
-
 	<h2 id="typography">Typography</h2>
 	<div>
 		<h1>Header 1</h1>
@@ -265,6 +269,6 @@
 	</ul>
 	<p><a href="#body">top</a></p>
 </div>
-
+  
 </body>
 </html>
