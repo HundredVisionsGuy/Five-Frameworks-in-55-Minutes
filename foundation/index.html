@@ -1,18 +1,19 @@
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - CSS Framework Template</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+  <title>CodePen - CSS Framework Test - Foundation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.0/css/foundation.min.css'><link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
-<div id="body" class="container">
-	<h1 class="">CSS Framework Template</h1>
-	<p>5 Frameworks in 55 Minutes</p>
-	<nav class="navbar">
-		<ul class="">
-			<li class=""><a href="#" class="">Link to Framework</a></li>
+<div id="body" class="grid-container">
+	<h1>CSS Framework Test</h1>
+	<p class="subheader h3">5 Frameworks in 55 Minutes</p>
+	<nav class="">
+		<ul class="menu">
+			<li class="is-active"><a href="https://get.foundation/sites/docs/" class="">Foundation</a></li>
 			<li class=""><a href="#grids" class="">Grids</a></li>
 			<li class=""><a href="#buttons" class="">Buttons</a></li>
 			<li class=""><a href="#tables" class="">Tables</a></li>
@@ -24,30 +25,30 @@
 
 	<h2 id="grids">Grids</h2>
 	<section class="grids-container">
-		<div class="">
-			<div class="">
+		<div class="grid-x grid-padding-x">
+			<div class="cell small-6">
 				<p>Responsive Half-width</p>
 			</div>
-			<div class="">
+			<div class="cell small-6">
 				<p>Responsive Half-width</p>
 			</div>
 		</div>
-		<div class="">
-			<div class="">
+		<div class="grid-x grid-padding-x">
+			<div class="cell small-3">
 				<p>Left Column (40%)</p>
 			</div>
-			<div class="">
+			<div class="cell small-9">
 				<p>Right Column (60%)</p>
 			</div>
 		</div>
-		<div class="">
-			<div class="">
+		<div class="grid-x grid-padding-x">
+			<div class="cell small-4">
 				<p>Three evenly spaced divs</p>
 			</div>
-			<div class="">
+			<div class="cell small-4">
 				<p>Three evenly spaced divs</p>
 			</div>
-			<div class="">
+			<div class="cell small-4">
 				<p>Three evenly spaced divs</p>
 			</div>
 		</div>
@@ -55,87 +56,89 @@
 	<p><a href="#body">top</a></p>
 
 	<h2 id="buttons">Buttons</h2>
-	<p><button class="">Press this</button></p>
-	<p><a class="" href="#">Press this</a></p>
-	<p><button class="">Don't press this</button></p>
+	<p><button class="button info">Press this</button></p>
+	<p><a class="button hollow success" href="#">Press this</a></p>
+	<p><button class="button" disabled>Don't press this</button></p>
 	<p><a href="#body">top</a></p>
 
 	<h2 id="tables">Tables</h2>
-	<table class="" border="1">
-		<tr>
-			<th>Header 1</th>
-			<th>Header 2</th>
-			<th>Header 3</th>
-			<th>Header 4</th>
-			<th>Header 5</th>
-		</tr>
-		<tr>
-			<td>Row:1 Cell:1</td>
-			<td>Row:1 Cell:2</td>
-			<td>Row:1 Cell:3</td>
-			<td>Row:1 Cell:4</td>
-			<td>Row:1 Cell:5</td>
-		</tr>
-		<tr>
-			<td>Row:2 Cell:1</td>
-			<td>Row:2 Cell:2</td>
-			<td>Row:2 Cell:3</td>
-			<td>Row:2 Cell:4</td>
-			<td>Row:2 Cell:5</td>
-		</tr>
-		<tr>
-			<td>Row:3 Cell:1</td>
-			<td>Row:3 Cell:2</td>
-			<td>Row:3 Cell:3</td>
-			<td>Row:3 Cell:4</td>
-			<td>Row:3 Cell:5</td>
-		</tr>
-		<tr>
-			<td>Row:4 Cell:1</td>
-			<td>Row:4 Cell:2</td>
-			<td>Row:4 Cell:3</td>
-			<td>Row:4 Cell:4</td>
-			<td>Row:4 Cell:5</td>
-		</tr>
-		<tr>
-			<td>Row:5 Cell:1</td>
-			<td>Row:5 Cell:2</td>
-			<td>Row:5 Cell:3</td>
-			<td>Row:5 Cell:4</td>
-			<td>Row:5 Cell:5</td>
-		</tr>
-		<tr>
-			<td>Row:6 Cell:1</td>
-			<td>Row:6 Cell:2</td>
-			<td>Row:6 Cell:3</td>
-			<td>Row:6 Cell:4</td>
-			<td>Row:6 Cell:5</td>
-		</tr>
-	</table>
+	<div>
+		<table border="1" class="hover">
+			<tr>
+				<th>Header 1</th>
+				<th>Header 2</th>
+				<th>Header 3</th>
+				<th>Header 4</th>
+				<th>Header 5</th>
+			</tr>
+			<tr>
+				<td>Row:1 Cell:1 lorem ipsum set dolor something else</td>
+				<td>Row:1 Cell:2 lorem ipsum set dolor something else</td>
+				<td>Row:1 Cell:3 lorem ipsum set dolor something else</td>
+				<td>Row:1 Cell:4</td>
+				<td>Row:1 Cell:5</td>
+			</tr>
+			<tr>
+				<td>Row:2 Cell:1</td>
+				<td>Row:2 Cell:2</td>
+				<td>Row:2 Cell:3</td>
+				<td>Row:2 Cell:4</td>
+				<td>Row:2 Cell:5</td>
+			</tr>
+			<tr>
+				<td>Row:3 Cell:1</td>
+				<td>Row:3 Cell:2</td>
+				<td>Row:3 Cell:3</td>
+				<td>Row:3 Cell:4</td>
+				<td>Row:3 Cell:5</td>
+			</tr>
+			<tr>
+				<td>Row:4 Cell:1</td>
+				<td>Row:4 Cell:2</td>
+				<td>Row:4 Cell:3</td>
+				<td>Row:4 Cell:4</td>
+				<td>Row:4 Cell:5</td>
+			</tr>
+			<tr>
+				<td>Row:5 Cell:1</td>
+				<td>Row:5 Cell:2</td>
+				<td>Row:5 Cell:3</td>
+				<td>Row:5 Cell:4</td>
+				<td>Row:5 Cell:5</td>
+			</tr>
+			<tr>
+				<td>Row:6 Cell:1</td>
+				<td>Row:6 Cell:2</td>
+				<td>Row:6 Cell:3</td>
+				<td>Row:6 Cell:4</td>
+				<td>Row:6 Cell:5</td>
+			</tr>
+		</table>
+	</div>
 	<p><a href="#body">top</a></p>
 
 	<h2 id="forms">Forms</h2>
 	<form action="#">
-		<div class="">
+		<div class="callout warning">
 			<div class="">
 				<label>Input Label
-					<input type="text" id="autocomplete-input" class="autocomplete" placeholder="type something" />
+          <input type="text" class="" placeholder="type something" />
 				</label>
 			</div>
 		</div>
 		<div class="">
-			<div class="">
+			<div class="callout alert">
+				<label>Input Label
+                  <input type="text" placeholder="type something" class="" />
+                </label>
+			</div>
+			<div class="callout primary">
 				<label>Input Label
 					<input type="text" placeholder="type something" class="" />
 				</label>
 			</div>
 			<div class="">
-				<label>Input Label
-					<input type="text" placeholder="type something" class="" />
-				</label>
-			</div>
-			<div class="">
-				<div class="">
+				<div class="callout success">
 					<label>Input Label</label>
 					<div class="">
 						<input type="text" class="" placeholder="type something" />
@@ -143,8 +146,8 @@
 				</div>
 			</div>
 		</div>
-		<div class="">
-			<p>
+		<div class="callout large">
+			<div class="">
 				<label>Select Box
 					<select multiple>
 						<option value="husker">Husker</option>
@@ -152,57 +155,35 @@
 						<option value="hotdog">Hot Dog</option>
 						<option value="apollo">Apollo</option>
 					</select>
-				</label>
-			</p>
+         </label>
+			</div>
 		</div>
 		<div class="">
 			<div class="">
-				<fieldset class="">
+				<fieldset class="fieldset">
 					<legend>Choose Your Favorite</legend>
-					<p>
-						<label for="pokemonRed">
-							<input type="radio" name="pokemon" value="Red" id="pokemonRed" checked>
-							<span>Red</span>
-						</label>
-					</p>
-					<p>
-						<label for="pokemonBlue">
-							<input type="radio" name="pokemon" value="Blue" id="pokemonBlue">
-							<span>Blue</span>
-						</label>
-					</p>
+					<input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Red</label>
+					<input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Blue</label>
 				</fieldset>
 			</div>
 			<div class="">
-				<fieldset class="">
+				<fieldset class="fieldset">
 					<legend>Check these out</legend>
-					<p>
-						<label for="checkbox1">
-							<input id="checkbox1" type="checkbox" class="filled-in" checked="checked">
-							<span>Checkbox 1</span>
-						</label>
-					</p>
-					<p>
-						<label for="checkbox2">
-							<input id="checkbox2" type="checkbox">
-							<span>Checkbox 2</span>
-						</label>
-					</p>
+					<input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
+					<input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
+				</fieldset>
 			</div>
 		</div>
 		<div class="">
 			<div class="">
-				<label id="textLabel">Textarea Label <br /><i class="material-icons prefix">mode_edit</i>
-					<textarea placeholder="This is placeholder text to help you know what you can enter." rows="4" cols="50"
-						aria-labeledby="textLabel" aria-describedby="textAreaHelp"></textarea>
-					<p class="help-text" id="textAreaHelp">This is some help text that will be associated with the form.</p>
-				</label>
+				<label>Textarea Label
+        	<textarea placeholder="This is placeholder text to help you know what you can enter." rows="4" cols="50"></textarea>
+					<p class="help-text" id="textAreaHelp">This is some help text that will be associated with the form</p>
+        </label>
 			</div>
 		</div>
 	</form>
-
 	<p><a href="#body">top</a></p>
-
 	<h2 id="typography">Typography</h2>
 	<div>
 		<h1>Header 1</h1>
@@ -211,28 +192,20 @@
 		<h4>Header 4</h4>
 		<h5>Header 5</h5>
 		<h6>Do we really need to go this deep?</h6>
-		<p>The Force is strong with this one. I have you now. <strong> You mean it controls your actions?</strong> <em> Don't
-				be too proud of this technological terror you've constructed.</em> The ability to destroy a planet is insignificant
-			next to the power
+		<p>The Force is strong with this one. I have you now. <strong> You mean it controls your actions?</strong> <em> Don't be too proud of this technological terror you've constructed.</em> The ability to destroy a planet is insignificant next to the power
 			of the Force.</p>
-		<p>You mean it controls your actions? You're all clear, kid. Let's blow this thing and go home! Oh God, my uncle. How
-			am I ever gonna explain this? Remember, a Jedi can feel the Force flowing through him.</p>
-		<p>I have traced the Rebel spies to her. Now she is my only link to finding their secret base. Kid, I've flown from
-			one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me
-			believe there's one all-powerful
-			Force controlling everything. There's no mystical energy field that controls my destiny. It's all a lot of simple
-			tricks and nonsense.</p>
+		<p>You mean it controls your actions? You're all clear, kid. Let's blow this thing and go home! Oh God, my uncle. How am I ever gonna explain this? Remember, a Jedi can feel the Force flowing through him.</p>
+		<p>I have traced the Rebel spies to her. Now she is my only link to finding their secret base. Kid, I've flown from one side of this galaxy to the other. I've seen a lot of strange stuff, but I've never seen anything to make me believe there's one all-powerful
+			Force controlling everything. There's no mystical energy field that controls my destiny. It's all a lot of simple tricks and nonsense.</p>
 	</div>
 	<p><a href="#body">top</a></p>
 
 	<h2 id="lists">Lists</h2>
 	<h3>Ordered Lists</h3>
 	<ol class="">
-		<li class="">Look, I ain't in this for your revolution, and I'm not in it for you, Princess. I expect to be well paid.
-			I'm in it for the money.</li>
+		<li class="">Look, I ain't in this for your revolution, and I'm not in it for you, Princess. I expect to be well paid. I'm in it for the money.</li>
 		<li class="">You're all clear, kid. Let's blow this thing and go home!</li>
-		<li class="">Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is
-			insignificant next to the power of the Force.</li>
+		<li class="">Don't be too proud of this technological terror you've constructed. The ability to destroy a planet is insignificant next to the power of the Force.</li>
 	</ol>
 	<h3>Numbered Lists</h3>
 	<ul class="">
@@ -265,6 +238,5 @@
 	</ul>
 	<p><a href="#body">top</a></p>
 </div>
-
 </body>
 </html>
