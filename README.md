@@ -151,6 +151,19 @@ NOTE: this doesn't cover adding functionality with JavaScript, but it there's ti
 ---------
 
 ## Foundation
+Repeat the same ideas but using Foundation.
+
+1. Add a container  
+2. Style the `<p>` like a subtitle
+3. Make your grids (just like Bootstrap)
+4. Table - not much to do here other than adding a hover class
+5. For Form...
+    * I'm not using any form classes
+    * We'll use various callouts (`callout`,`large`,`alert`,`warning`, etc.)
+6. TODO: you know what to do...try some stuff
+
+NOTES:
+
 
 ## Materialize
 
