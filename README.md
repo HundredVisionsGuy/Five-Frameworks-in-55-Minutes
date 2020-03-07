@@ -122,8 +122,29 @@ NOTE: Code samples are included in the samples directory
 1. Click Pen > From Template
 2. Select your CSS Framework Template
 3. Name it Bootstrap Sample (or something)
+4. Click the CSS gear icon
+5. Under "Add External Stylesheets/Pens" 
+    - Type "bootstrap" and it will find twitter-bootstrap v4
+6. Hit Enter and Save & Close
+7. Note the changes in Typography
 
 ### Adding Bootstrap
+1. Like all CSS Frameworks, you only have to add class attributes
+2. Note: in case you didn't know the way to add 2 or more classes to one tag is like so:
+   * `<p class="emphasis alert">`
+    * `<a class="btn btn-primary emphasis">`
+3. Go to [getbootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+4. Use the left-hand nav for seeing what you can do
+5. TODO:
+    1. Add container class
+    2. Adjust the navbar
+    3. Adjust the grids using the text inside as your guide
+      * Challenge: can you adjust the responsive nature (for tablets, phones, etc.)
+    4. Style the buttons
+    5. Create a form group and form controls
+    6. See what other computer components or utilities you can add
+
+NOTE: this doesn't cover adding functionality with JavaScript, but it there's time in the presentation, I could help talk about how I would go about that.
 
 [back to the top](#five-frameworks-in-55-minutes)
 
