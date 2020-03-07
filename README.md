@@ -1,5 +1,4 @@
-5 Frameworks in 55 Minutes Notes
-=======================
+# Five Frameworks in 55 Minutes 
 
 ## The Plan for Today
 
@@ -8,6 +7,7 @@
 3. [Getting Started](#getting-started)
 4. [5 Frameworks](#frameworks)
 5. [Other interesting frameworks](#other-frameworks)
+6. [Links and Resources](#links-and-resources)
 
 -------
 ## Introductions
@@ -41,7 +41,7 @@
 * It provides a learning opportunity to see how professionals have solved technically difficult challenges (especially with layouts)
 * It makes the jump from Web Design to Web Development and helps bring in CS concepts more quickly
 
-[back to the top](#the-plan-for-today)
+[back to the top](#five-frameworks-in-55-minutes)
 
 ---------
 ## What is a framework?
@@ -72,7 +72,7 @@
 
 Unfortunately, we won't have the time to take a deep dive in the JS Frameworks.
 
-[back to the top](#the-plan-for-today)
+[back to the top](#five-frameworks-in-55-minutes)
 
 ---------
 ## Tools you'll want
@@ -87,7 +87,7 @@ Unfortunately, we won't have the time to take a deep dive in the JS Frameworks.
     + Note: you can install this on a chromebook if you have terminal, but I am not sure how possible that is or how excited your IT folks will be 
     + https://medium.com/@jacoboakley/web-development-with-a-chromebook-installing-nodejs-4e358b82a31b
 
-[back to the top](#the-plan-for-today)
+[back to the top](#five-frameworks-in-55-minutes)
 
 ---------
 ## Getting Started
@@ -103,7 +103,7 @@ After this workshop, you should have the confidence to further explore
 
 NOTE: Code samples are included in the samples directory
 
-[back to the top](#the-plan-for-today)
+[back to the top](#five-frameworks-in-55-minutes)
 
 ---------
 ## Frameworks
@@ -115,20 +115,115 @@ NOTE: Code samples are included in the samples directory
 5. VueJS (add some JavaScript)
 6. Other Frameworks worth looking at 
 
+[back to the top](#five-frameworks-in-55-minutes)
 
 ## Bootstrap
 ### Getting Started
 1. Click Pen > From Template
 2. Select your CSS Framework Template
 3. Name it Bootstrap Sample (or something)
+4. Click the CSS gear icon
+5. Under "Add External Stylesheets/Pens" 
+    - Type "bootstrap" and it will find twitter-bootstrap v4
+6. Hit Enter and Save & Close
+7. Note the changes in Typography
 
 ### Adding Bootstrap
+1. Like all CSS Frameworks, you only have to add class attributes
+2. Note: in case you didn't know the way to add 2 or more classes to one tag is like so:
+   * `<p class="emphasis alert">`
+    * `<a class="btn btn-primary emphasis">`
+3. Go to [getbootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+4. Use the left-hand nav for seeing what you can do
+5. TODO:
+    1. Add container class
+    2. Adjust the navbar
+    3. Adjust the grids using the text inside as your guide
+      * Challenge: can you adjust the responsive nature (for tablets, phones, etc.)
+    4. Style the buttons
+    5. Create a form group and form controls
+    6. See what other computer components or utilities you can add
 
-[back to the top](#the-plan-for-today)
+NOTE: this doesn't cover adding functionality with JavaScript, but it there's time in the presentation, I could help talk about how I would go about that.
+
+[back to the top](#five-frameworks-in-55-minutes)
 
 ---------
-## Other Frameworks
 
-[back to the top](#the-plan-for-today)
+## Foundation
+Repeat the same ideas but using Foundation.
+
+1. Add a container  
+2. Style the `<p>` like a subtitle
+3. Make your grids (just like Bootstrap)
+4. Table - not much to do here other than adding a hover class
+5. For Form...
+    * I'm not using any form classes
+    * We'll use various callouts (`callout`,`large`,`alert`,`warning`, etc.)
+6. TODO: you know what to do...try some stuff
+
+NOTES:
+
+
+## Materialize
+1. Container class
+2. On Navbar, there are some differences:
+      * Add `navbar` class to nav
+      * Wrap the `ul` in a div with a class of `nav-wrapper`
+      * Move the Materialize link into an anchor tag with a class of `brand-logo left`
+      * Add a `menu right` class
+3. Make your grids
+4. On the buttons, use `waves-effect` classes
+5. Add stripes and hover effect
+6. Forms: 
+    * add `autocomplete` on input
+    * Let's add some icons to the TextArea label
+
+## Animate.css
+For Animate, just pick any framework and add some animation by:
+
+1. Add the Animate.css framework
+    * In CodePen, by clicking the CSS gear icon and searching for animate 
+      + Just like you did for each of the other frameworks
+    * In your text editor of choice, get the link from  CodePen or the [Animate.css website](https://daneden.github.io/animate.css/)
+2. Add one of the many classes listed on...
+    * The [Animate.css website](https://daneden.github.io/animate.css/)
+    * The [Animate GitHub Repo](https://github.com/daneden/animate.css#animations)
+3. Test out different animations on different elements
+4. TODO:
+    * Write a JavaScript script to change, toggle, add, or hide animate classes on various events
+    * The quick & dirty way would be through [jQuery toggle class](https://www.w3schools.com/jquery/html_toggleclass.asp)
+
+
+## VueJS
+1. For this, you will need to either 
+    * work on the files in the [vuejs folder](vuejs/)
+    * Create a Fork of my [Vue Framework Test CodePen](https://codepen.io/hundredvisionsguy/pen/LYVZVBV)
+2. Follow the [VueJS Getting Started Page](https://vuejs.org/v2/guide/#Getting-Started)
+3. TODO:
+    * Learn to create apps by divide the app into ***components***
+      * You really need to do this on your own device and NOT CodePen
+      * Download [NodeJS](https://nodejs.org/en/)
+    * Continue learning VueJS by following one of many different tutorials
+
+NOTE:
+* With VueJS, you'll want to use a good text editor and NodeJS to continue working.
+
+## Other Frameworks
+* [CanvasJS: Getting Started](https://canvasjs.com/docs/charts/basics-of-creating-html5-chart/) - this is great for data visualizations (for a sample, see my [Simple CanvasJS Test CodePen](https://codepen.io/hundredvisionsguy/pen/mILkg))
+* [NES.css (NES-style CSS Framework)](https://nostalgic-css.github.io/NES.css/) - if I have to explain what NES is, you probably won't appreciate it
+* [Milligram](https://milligram.io/) - a minimalist CSS framework - I really like this one, and I almost included it in my 5. NOTE: The [NodeJS Live (Node Foundation)](https://live.nodejs.org/) uses it
+
+
+[back to the top](#five-frameworks-in-55-minutes)
+
+---------
+
+## Links and Other Resources
+* [CSS Frameworks Roundup (and some thoughts)](https://css-tricks.com/css-frameworks-roundup-and-some-thoughts/) - Chris Coyier - creator of CodePen - has some pros and cons on frameworks
+* [CodeHS Unit on Bootstrap](https://codehs.com/library/course/1939/module/2823) - my Web students get this in the Web Design course - it's a mixed bag in my opinion
+* [W3Schools Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/) - I think it's a good resource, especially for adding functionality through JavaScript 
+
+[back to the top](#five-frameworks-in-55-minutes)
 
 ---------
