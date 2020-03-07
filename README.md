@@ -166,26 +166,48 @@ NOTES:
 
 
 ## Materialize
-  1. Container class
-  2. On Navbar, there are some differences:
+1. Container class
+2. On Navbar, there are some differences:
       * Add `navbar` class to nav
       * Wrap the `ul` in a div with a class of `nav-wrapper`
       * Move the Materialize link into an anchor tag with a class of `brand-logo left`
       * Add a `menu right` class
-  3. Make your grids
-  4. On the buttons, use `waves-effect` classes
-  5. Add stripes and hover effect
-  6. Forms: 
+3. Make your grids
+4. On the buttons, use `waves-effect` classes
+5. Add stripes and hover effect
+6. Forms: 
     * add `autocomplete` on input
     * Let's add some icons to the TextArea label
 
 ## Animate.css
+For Animate, just pick any framework and add some animation by:
+
+1. Add the Animate.css framework
+    * In CodePen, by clicking the CSS gear icon and searching for animate 
+      + Just like you did for each of the other frameworks
+    * In your text editor of choice, get the link from  CodePen or the [Animate.css website](https://daneden.github.io/animate.css/)
+2. Add one of the many classes listed on...
+    * The [Animate.css website](https://daneden.github.io/animate.css/)
+    * The [Animate GitHub Repo](https://github.com/daneden/animate.css#animations)
+3. Test out different animations on different elements
+4. TODO:
+    * Write a JavaScript script to change, toggle, add, or hide animate classes on various events
+    * The quick & dirty way would be through [jQuery toggle class](https://www.w3schools.com/jquery/html_toggleclass.asp)
+
 
 ## VueJS
 1. For this, you will need to either 
     * work on the files in the [vuejs folder](vuejs/)
     * Create a Fork of my [Vue Framework Test CodePen](https://codepen.io/hundredvisionsguy/pen/LYVZVBV)
+2. Follow the [VueJS Getting Started Page](https://vuejs.org/v2/guide/#Getting-Started)
+3. TODO:
+    * Learn to create apps by divide the app into ***components***
+      * You really need to do this on your own device and NOT CodePen
+      * Download [NodeJS](https://nodejs.org/en/)
+    * Continue learning VueJS by following one of many different tutorials
 
+NOTE:
+* With VueJS, you'll want to use a good text editor and NodeJS to continue working.
 
 ## Other Frameworks
 * [CanvasJS: Getting Started](https://canvasjs.com/docs/charts/basics-of-creating-html5-chart/) - this is great for data visualizations (for a sample, see my [Simple CanvasJS Test CodePen](https://codepen.io/hundredvisionsguy/pen/mILkg))
