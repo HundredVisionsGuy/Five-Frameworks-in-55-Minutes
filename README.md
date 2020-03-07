@@ -7,6 +7,7 @@
 3. [Getting Started](#getting-started)
 4. [5 Frameworks](#frameworks)
 5. [Other interesting frameworks](#other-frameworks)
+6. [Links and Resources](#links-and-resources)
 
 -------
 ## Introductions
@@ -114,6 +115,7 @@ NOTE: Code samples are included in the samples directory
 5. VueJS (add some JavaScript)
 6. Other Frameworks worth looking at 
 
+[back to the top](#five-frameworks-in-55-minutes)
 
 ## Bootstrap
 ### Getting Started
@@ -126,7 +128,34 @@ NOTE: Code samples are included in the samples directory
 [back to the top](#five-frameworks-in-55-minutes)
 
 ---------
-## Other Frameworks
 
-[back to the top](#five-frameworks-in-55-minutes
+## Foundation
+
+## Materialize
+
+## Animate.css
+
+## VueJS
+1. For this, you will need to either 
+    * work on the files in the [vuejs folder](vuejs/)
+    * Create a Fork of my [Vue Framework Test CodePen](https://codepen.io/hundredvisionsguy/pen/LYVZVBV)
+
+
+## Other Frameworks
+* [CanvasJS: Getting Started](https://canvasjs.com/docs/charts/basics-of-creating-html5-chart/) - this is great for data visualizations (for a sample, see my [Simple CanvasJS Test CodePen](https://codepen.io/hundredvisionsguy/pen/mILkg))
+* [NES.css (NES-style CSS Framework)](https://nostalgic-css.github.io/NES.css/) - if I have to explain what NES is, you probably won't appreciate it
+* [Milligram](https://milligram.io/) - a minimalist CSS framework - I really like this one, and I almost included it in my 5. NOTE: The [NodeJS Live (Node Foundation)](https://live.nodejs.org/) uses it
+
+
+[back to the top](#five-frameworks-in-55-minutes)
+
+---------
+
+## Links and Other Resources
+* [CSS Frameworks Roundup (and some thoughts)](https://css-tricks.com/css-frameworks-roundup-and-some-thoughts/) - Chris Coyier - creator of CodePen - has some pros and cons on frameworks
+* [CodeHS Unit on Bootstrap](https://codehs.com/library/course/1939/module/2823) - my Web students get this in the Web Design course - it's a mixed bag in my opinion
+* [W3Schools Bootstrap 4 Tutorial](https://www.w3schools.com/bootstrap4/) - I think it's a good resource, especially for adding functionality through JavaScript 
+
+[back to the top](#five-frameworks-in-55-minutes)
+
 ---------
